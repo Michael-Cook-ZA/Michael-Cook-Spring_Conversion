@@ -17,5 +17,14 @@ public class ConversionController {
         return new Conversion((inputConversion.getValue() + 273.15), "Kelvin");
     }
 
-    
+    @PostMapping("/conversions/mtok/")
+    public Conversion conversionMtok(@RequestBody Conversion newConversion) {
+        return new Conversion((newConversion.getValue() / 0.6213711922), "Kilometres");
+    }
+
+    @PostMapping("/conversions/ktom/")
+    public Conversion conversionKtom(@RequestBody Conversion newConversion) {
+        return new Conversion((newConversion.getValue() * 0.6213711922), "Miles");
+    }
+
 }

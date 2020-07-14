@@ -8,6 +8,8 @@ basic Java app with endpoints to do conversions
  }
   all data is returned in the same JSON format
 
+
+
 Java Developer Expertise Test (60 min)
 Part 1
 Create a Github account on github https://github.com/ or use your existing account if you
