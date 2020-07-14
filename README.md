@@ -8,6 +8,15 @@ basic Java app with endpoints to do conversions
  }
   all data is returned in the same JSON format
 
+to run the part1 
+./mvnw spring-boot:run
+
+testing as excluded due to timelimit
+
+The program was done in simple as possible way due to time limit.
+
+part 2 was believed to not include the in the time and thus done before hand and added to the program afterwards in its part2 folder in one .java file.
+
 
 
 Java Developer Expertise Test (60 min)
