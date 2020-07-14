@@ -1,4 +1,4 @@
-package com.example.conversion;
+package com.example.Conversion;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

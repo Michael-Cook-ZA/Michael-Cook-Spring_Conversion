@@ -1,4 +1,4 @@
-package com.example.conversion.models;
+package com.example.Conversion.models;
 
 
 public class Conversion {
