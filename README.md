@@ -1,5 +1,13 @@
 # Michael-Cook-Spring_Conversion
- basic Java app with endpoints to do conversions
+basic Java app with endpoints to do conversions
+
+ Accepts JSON for all input data for the endpoints in following format
+ {
+     Value: double
+     Unit: String
+ }
+  all data is returned in the same JSON format
+
 Java Developer Expertise Test (60 min)
 Part 1
 Create a Github account on github https://github.com/ or use your existing account if you
